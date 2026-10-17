@@ -1,0 +1,24 @@
+# Dataset — not committed (210 MB; creditcard.csv alone is 143.8 MB, over
+# GitHub's 100 MB hard per-file limit). Download it from Kaggle instead:
+#   https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+# and unzip into data/
+data/
+
+# Claude Code session config
+.claude/
+
+# Local write-up, kept out of the repo
+VAE_explained.pdf
+
+# Notebook / Python cruft
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

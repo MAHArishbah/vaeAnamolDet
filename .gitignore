@@ -10,7 +10,11 @@ data/
 # Local write-up, kept out of the repo
 VAE_explained.pdf
 
+# Kaggle API token — never commit credentials
+kaggle.json
+
 # Notebook / Python cruft
+*.bak
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
